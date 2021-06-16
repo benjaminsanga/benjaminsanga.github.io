@@ -1,0 +1,20 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+    @include gradient;
+
+    .navbar-brand {
+        font-weight: 600;
+    }
+
+    li {
+        padding: 0 0.7rem;
+
+        a {
+            color: $white !important;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}
