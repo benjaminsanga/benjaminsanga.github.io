@@ -10861,6 +10861,7 @@ body {
 }
 .menu .navbar-brand {
   font-weight: 600;
+  font-size: 1.5rem;
 }
 .menu li {
   padding: 0 0.7rem;
@@ -10873,7 +10874,7 @@ body {
 
 .intro-section {
   background: linear-gradient(to right, rgba(0, 132, 180, 0.95), rgba(29, 202, 255, 0.95));
-  padding: 10rem 0 0 0;
+  padding: 7rem 0 0 0;
   width: 100%;
   height: 100%;
 }
